@@ -455,8 +455,9 @@
 	
 	function playSong(audioName){
 		let audio = new Audio(audioName);
-		audio.play();
 		audio.loop = true;
+		audio.play();
+		
 	}
 	
 	
